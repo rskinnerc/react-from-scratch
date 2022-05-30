@@ -69,3 +69,14 @@ body {
   text-decoration: underline;
 }
 
+.navBar {
+  width: 80%;
+  margin: 5em auto;
+}
+
+.navBar ul {
+  display: flex;
+  list-style: none;
+  gap: 5em;
+  justify-content: center;
+}

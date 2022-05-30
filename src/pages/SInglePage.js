@@ -13,7 +13,7 @@ const SinglePage = () => {
       slug: 'about-author',
       title: 'About the Author',
       description:
-        'This app was developed by Ronald Skinner, a web developer and a technical writer. He is opened to freelance Gig. So go ahead and connect with ibas on Twitter @XSkinner.',
+        'This app was developed by Ronald Skinner, a web developer and a technical writer. He is opened to freelance Gig. So go ahead and connect with Ronald on Twitter @XSkinner.',
     },
   ];
 
