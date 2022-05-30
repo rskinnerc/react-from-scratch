@@ -6,7 +6,7 @@ const TodoItem = (props) => {
   const [editing, setEditing] = useState(false);
 
   useEffect(() => () => {
-    console.log('Cleaning up...');
+    // console.log('Cleaning up...'); Commented out to avoid deployment errors
   }, []);
 
   const handleEditing = () => {
