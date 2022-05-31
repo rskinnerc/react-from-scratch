@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TodoContainer from './components/TodoContainer';
 
@@ -9,7 +9,10 @@ import NoMatch from './pages/NoMatch';
 import Navbar from './components/Navbar';
 import SinglePage from './pages/SInglePage';
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+
+root.render(
   <React.StrictMode>
     <Router>
       <Navbar />
@@ -22,5 +25,4 @@ ReactDOM.render(
       </Routes>
     </Router>
   </React.StrictMode>,
-  document.getElementById('root'),
 );
